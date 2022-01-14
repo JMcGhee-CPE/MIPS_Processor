@@ -1,0 +1,60 @@
+
+#
+# CprE 381 Generated Quartus Settings File
+#
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:07:08  JANUARY 28, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Standard Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name TOP_LEVEL_ENTITY MIPS_Processor
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/16to32extender.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/MIPS_Processor.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/adderSubtractor.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/adderSubtractorOverflowCarryout.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/address_adder.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/andg2.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/decoder3to8.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/decoder5to32.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/fullAdder.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/instruction_fetcher.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/inv.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/leftShifter.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/logicUnit.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/mem.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/mux16to1.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/mux16to1_32bit.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/mux2To1.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/mux2To1Structural.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/mux2to1N.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/mux2to1nBitDataflow.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/mux2to1nBitStructural.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/mux32to1.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/mux32to1_32bit.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/mux4to1.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/mux8to1.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/nBitRegister.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/ones_comp.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/ones_comp_struct.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/org2.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/project2alu.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/project2datapath.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/reg.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/reg32dataflow.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/registerFile.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/registerFile2outputs.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/rightShifter.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/rippleCarryAdderDataflow.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/rippleCarryAdderOverflow.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/rippleCarryAdderStructural.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/singleCycleControl.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/tb_datapathv2.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/tb_dff.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/tb_dmem.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/xorg2.vhd"
+set_global_assignment -name VHDL_FILE "/home/cgeorge/dev/cpre-381-toolflow-fall-2021/src/zeroDetector.vhd"
