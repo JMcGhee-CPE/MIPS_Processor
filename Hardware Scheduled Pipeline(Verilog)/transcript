@@ -1,0 +1,145 @@
+# //  Questa Sim-64
+# //  Version 2021.2 linux_x86_64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project MIPS_Synth
+add wave -position insertpoint  \
+vsim:/tb/MyMips/PC/i_D
+add wave -position insertpoint  \
+vsim:/tb/MyMips/PC/o_Q
+add wave -position insertpoint  \
+vsim:/tb/MyMips/next_ins_F
+add wave -position insertpoint  \
+vsim1:/tb/MyMips/PC/o_Q
+add wave -position insertpoint  \
+vsim1:/tb/MyMips/s_IMemAddr
+add wave -position insertpoint  \
+vsim1:/tb/MyMips/PC/i_D
+add wave -position insertpoint  \
+vsim1:/tb/MyMips/PC/i_CLK
+add wave -position insertpoint  \
+vsim1:/tb/MyMips/branch_result_addr
+add wave -position insertpoint  \
+vsim1:/tb/MyMips/next_ins_F
+add wave -position insertpoint  \
+vsim1:/tb/MyMips/take_branch
+add wave -position insertpoint  \
+vsim2:/tb/MyMips/PC/o_Q
+add wave -position insertpoint  \
+vsim2:/tb/MyMips/PC/reg_input
+add wave -position insertpoint  \
+vsim2:/tb/MyMips/PC/reset_value
+add wave -position insertpoint  \
+vsim2:/tb/MyMips/PC/i_CLK
+add wave -position insertpoint  \
+vsim2:/tb/MyMips/PC/i_RST
+add wave -position insertpoint  \
+vsim3:/tb/MyMips/PC/o_Q
+add wave -position insertpoint  \
+vsim3:/tb/MyMips/PC/i_CLK
+add wave -position insertpoint  \
+vsim3:/tb/MyMips/PC/i_RST
+add wave -position insertpoint  \
+vsim3:/tb/MyMips/PC/reg_input
+add wave -position insertpoint  \
+vsim3:/tb/MyMips/PC/o_Q
+add wave -position insertpoint  \
+vsim4:/tb/MyMips/PC/o_Q
+add wave -position insertpoint  \
+vsim4:/tb/MyMips/PC/i_D
+add wave -position insertpoint  \
+vsim4:/tb/MyMips/PC/i_CLK
+add wave -position insertpoint  \
+vsim4:/tb/MyMips/PC/i_RST
+add wave -position insertpoint  \
+vsim4:/tb/MyMips/PC/i_WE
+add wave -position insertpoint  \
+vsim4:/tb/MyMips/PC/reg_input
+add wave -position insertpoint  \
+vsim5:/tb/MyMips/PC/o_Q
+add wave -position insertpoint  \
+vsim5:/tb/MyMips/next_ins_EX
+add wave -position insertpoint  \
+vsim5:/tb/MyMips/decode_stage_reg
+add wave -position insertpoint  \
+vsim5:/tb/MyMips/rt_D
+add wave -position insertpoint  \
+vsim5:/tb/MyMips/rs_D
+add wave -position insertpoint  \
+vsim5:/tb/MyMips/control_sigs_D
+add wave -position insertpoint  \
+vsim5:/tb/MyMips/ins_decode/o_ALUOP
+add wave -position insertpoint  \
+vsim5:/tb/MyMips/ins_decode/op_code
+add wave -position insertpoint  \
+vsim6:/tb/MyMips/PC/o_Q
+add wave -position insertpoint  \
+vsim7:/tb/MyMips/PC/o_Q
+add wave -position insertpoint  \
+vsim8:/tb/MyMips/raw_ins_EX
+add wave -position insertpoint  \
+vsim8:/tb/MyMips/hazard_control/flush
+add wave -position insertpoint  \
+vsim8:/tb/MyMips/hazard_control/stall
+add wave -position insertpoint  \
+vsim8:/tb/MyMips/IF_ID_Reg/o_Q
+add wave -position insertpoint  \
+vsim8:/tb/MyMips/IF_ID_Reg/i_RST
+add wave -position insertpoint  \
+vsim8:/tb/MyMips/IF_ID_Reg/i_CLK
+add wave -position insertpoint  \
+vsim9:/tb/MyMips/raw_ins_EX
+add wave -position insertpoint  \
+vsim9:/tb/MyMips/branch_result_addr
+add wave -position insertpoint  \
+vsim9:/tb/MyMips/PC/o_Q
+add wave -position insertpoint  \
+vsim9:/tb/MyMips/next_ins_EX
+add wave -position insertpoint  \
+vsim9:/tb/MyMips/next_ins_F
+add wave -position insertpoint  \
+vsim9:/tb/MyMips/control_sigs_EX
+add wave -position insertpoint  \
+vsim9:/tb/MyMips/control_sigs_D
+add wave -position insertpoint  \
+vsim9:/tb/MyMips/reg_write_MEM
+add wave -position insertpoint  \
+vsim9:/tb/MyMips/alu_a
+add wave -position insertpoint  \
+vsim9:/tb/MyMips/control_sigs_EX
+add wave -position insertpoint  \
+{vsim9:/tb/MyMips/control_sigs_EX[11]}
+add wave -position insertpoint  \
+vsim10:/tb/MyMips/MIPS_ALU/i_A \
+vsim10:/tb/MyMips/MIPS_ALU/i_B \
+vsim10:/tb/MyMips/MIPS_ALU/o_S
+add wave -position insertpoint  \
+vsim10:/tb/MyMips/raw_ins_EX
+add wave -position insertpoint  \
+vsim11:/tb/MyMips/MIPS_ALU/i_A \
+vsim11:/tb/MyMips/MIPS_ALU/i_B
+add wave -position insertpoint  \
+vsim12:/tb/MyMips/MIPS_ALU/i_A \
+vsim12:/tb/MyMips/MIPS_ALU/i_B
+add wave -position insertpoint  \
+vsim12:/tb/MyMips/MIPS_ALU/o_S
+add wave -position insertpoint  \
+vsim12:/tb/MyMips/final_wb_addr_EX
+add wave -position insertpoint  \
+vsim12:/tb/MyMips/wb_addr_EX
+add wave -position insertpoint  \
+vsim13:/tb/MyMips/MIPS_ALU/i_qByte
+add wave -position insertpoint  \
+vsim13:/tb/MyMips/MIPS_ALU/o_S
+add wave -position insertpoint  \
+vsim13:/tb/MyMips/MIPS_ALU/i_ALUOP
