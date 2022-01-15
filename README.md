@@ -1,6 +1,8 @@
 # Mips Processor
 
-![](https://github.com/JMcGhee-CPE/JMcGhee-CPE.github.io/blob/main/assets/img/MIPS_Layout.png)
+<p align="center">
+  <img src="https://github.com/JMcGhee-CPE/JMcGhee-CPE.github.io/blob/main/assets/img/MIPS_Layout.png">
+</p>
 
 ### Summary
 
