@@ -1,7 +1,7 @@
-#Mips Processor
+# Mips Processor
 
 
-###Summary
+### Summary
 This project is the result of the 
 
 **Table of Contents**
@@ -10,14 +10,14 @@ This project is the result of the
 
 [TOC]
 
-##Single Cycle Design
+## Single Cycle Design
 
-###Summary
+### Summary
 
 ![](https://github.com/JMcGhee-CPE/JMcGhee-CPE.github.io/blob/main/assets/img/Single-Cycle-Schematic.png)
 
-##Software Scheduled Pipelined Cycle Design
+## Software Scheduled Pipelined Cycle Design
 
-##Hardware Scheduled Pipelined Cycle Design
+## Hardware Scheduled Pipelined Cycle Design
 
-##Verilog Pipelined Cycle Design
+## Verilog Pipelined Cycle Design
